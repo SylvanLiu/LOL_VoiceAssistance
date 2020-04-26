@@ -46,7 +46,7 @@ def sort_queue():
                 goal_queue[i] = tmp
                 a += 1
                 pass
-    print('时间节点已刷新'+str(goal_queue))
+    print('items list has been refreshed '+ str(goal_queue))
 
 
 def update_item(update_goal, update_time):
