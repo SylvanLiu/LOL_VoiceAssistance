@@ -1,6 +1,6 @@
 # LOL_VoiceAssistance
 
-## This program is different from those cheating tools, it won't read and write your game memory, it only tries to help new junglers optimizing their timetable better, for a higher profit, while farming and ganking at the same time.
+## This program is different from those cheating tools, it won't read and write your game memory. Instead, it only helps new junglers optimizing their timetable, for a better on-lanes and off-lanes profit, while you need to farm and gank at the same time.
 
 Noticed: the jungling system had been changed since v8.10, from 2018-05-21.
 This voice assistance is designed for current versions(10.8 and 10.9)
@@ -22,4 +22,3 @@ F5 to record that you have killed the dragon
 F6 to record that you have killed the pioneer
 
 Press Del to eixt this program
-
