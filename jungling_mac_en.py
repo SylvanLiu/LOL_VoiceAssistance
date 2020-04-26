@@ -140,7 +140,7 @@ def on_release(key):
         update_item('pioneer', rift_herald)
 
     if key == keyboard.Key.delete:
-        # 终结程序
+        # terminate program
         global state_button
         state_button = False
         return False
