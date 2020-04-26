@@ -2,6 +2,9 @@
 
 ## This program is different from those cheating tools, it won't read and write your game memory, it only tries to help new junglers optimizing their timetable better, for a higher profit, while farming and ganking at the same time.
 
+Noticed: the jungling system had been changed since v8.10, from 2018-05-21.
+This voice assistance is designed for current versions(10.8 and 10.9)
+
 Launch the python script for each game:
 
 Press F8 while you are allowed to leave your Spawn (after 15 seconds from the very beginning.
@@ -19,5 +22,4 @@ F5 to record that you have killed the dragon
 F6 to record that you have killed the pioneer
 
 Press Del to eixt this program
-
 
