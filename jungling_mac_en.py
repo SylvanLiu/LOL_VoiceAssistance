@@ -46,7 +46,7 @@ def sort_queue():
                 goal_queue[i] = tmp
                 a += 1
                 pass
-    print('items list has been refreshed '+ str(goal_queue))
+    print('items list has been refreshed ' + str(goal_queue))
 
 
 def update_item(update_goal, update_time):
@@ -88,11 +88,11 @@ def do_broadcast(goal, type_):
         print(goal + type_)
         os.system('say ' + goal + type_)
     elif type_ == 'still two minutes':
-        print('There are ' type_ + 'before ' + goal)
-        os.system('say There are ' type_ + 'before ' + goal)
+        print('There are ' + type_ + ' before ' + goal)
+        os.system('say There are ' + type_ + ' before ' + goal)
     elif type_ == 'only one minute':
-        print('There is ' type_ + 'before ' + goal)
-        os.system('say There is ' type_ + 'before ' + goal)
+        print('There is ' + type_ + ' before ' + goal)
+        os.system('say There is ' + type_ + ' before ' + goal)
 
 
 def on_release(key):
@@ -145,7 +145,6 @@ def on_release(key):
         state_button = False
         return False
 
-
 def start_listening():
     with keyboard.Listener(on_release=on_release) as listener:
         listener.join()
@@ -157,9 +156,10 @@ if __name__ == '__main__':
     threads.append(t1)
     t2 = threading.Thread(target=broadcast_queue)
     threads.append(t2)
-    os.system('say ' + 'jungling support system has strated running, may you have a pentakill')
+    os.system(
+        'say ' + 'jungling assistance has launched, may you have a pentakill')
     for t in threads:
         t.start()
     for t in threads:
         t.join()
-    os.system('say ' + 'jungling support system has terminated')
+    os.system('say ' + 'jungling assistance has terminated')
