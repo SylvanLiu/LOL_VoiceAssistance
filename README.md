@@ -46,3 +46,5 @@ blue buff has appeared
 <F1>items list has been refreshed ['blue buff', 'red crab', 'blue crab', 'dragon', 'mid get 6', 'top get 6', 'red buff', 'bot get 6', 'pioneer']
 <F2>items list has been refreshed ['red crab', 'blue crab', 'dragon', 'mid get 6', 'top get 6', 'red buff', 'blue buff', 'bot get 6', 'pioneer']
 <Del>jungling assistance has terminated
+
+P.S. There will only be the artificial error while you record things by pressing keys, all threadings and processed are accurate and will rarely influence your game performance.
