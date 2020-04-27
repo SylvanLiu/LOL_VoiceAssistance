@@ -60,4 +60,4 @@ blue buff has appeared
 
 #### P.S. There will only be the artificial error while you record things by pressing keys, all threadings and processed are accurate and will rarely influence your game performance.
 
-![alt text](https://github.com/SylvanLiu/ExchangeRatePrediction/blob/master/Prediction.png)
+![alt text](https://github.com/SylvanLiu/LOL_VoiceAssistance/blob/master/LOL.png)
