@@ -23,3 +23,8 @@ F5 to record that you have killed the dragon
 F6 to record that you have killed the pioneer
 
 Press Del to eixt this program
+
+Furthur plan:
+1. Involving speech detecting technology, for simpler telling the assistance your current jungling plan.
+2. Considering the ult skills and summoner spells and send appropriate notification to user.
+3. Expand its function to other three laners.
