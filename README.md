@@ -22,7 +22,7 @@ Press F5 to record that you have killed the dragon
 
 Press F6 to record that you have killed the pioneer
 
-Press Del to exit this program
+Press Del (Delete) to exit this program
 
 You need to press the corresponding key to record that what you just did (what mob has been killed), and it will notify you for the coming of the next one.
 
