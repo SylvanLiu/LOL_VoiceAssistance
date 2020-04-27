@@ -1,6 +1,6 @@
 # League of Legends Voice Assistance (Jungling)
 
-## This program is extremely different from the cheating tools; it won't read and write your game memory. Instead, it only helps new junglers optimizing their timetable, for a better on-lanes and off-lanes profit, while you need to farm and gank at the same time.
+## This program is extremely different from the cheating tools hence won't cause your accounts being banned; it won't read and write your game memory. Instead, it only helps new junglers optimizing their timetable, for a better on-lanes and off-lanes profit, while you need to farm and gank at the same time.
 
 #### Noticed: the jungling system had been changed since v8.10, from 2018-05-21. This voice assistance is designed for current versions(10.8 and 10.9)
 
