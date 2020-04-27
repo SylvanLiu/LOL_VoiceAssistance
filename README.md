@@ -35,16 +35,27 @@ Furthur plan:
 3. Expand its function to the other three laners.
 
 Console example:
-<Run>jungling assistance has launched, may you have a pentakill
-<F8>items list has been refreshed ['red buff', 'blue buff', 'red crab', 'blue crab', 'dragon', 'mid get 6', 'top get 6', 'bot get 6', 'pioneer']
+
+<'Run'>jungling assistance has launched, may you have a pentakill
+
+<'F8'>items list has been refreshed ['red buff', 'blue buff', 'red crab', 'blue crab', 'dragon', 'mid get 6', 'top get 6', 'bot get 6', 'pioneer']
+
 There is only one minute before red buff
+
 There is only one minute before blue buff
+
 There are still two minutes before red crab
+
 There are still two minutes before blue crab
+
 red buff has appeared
+
 blue buff has appeared
-<F1>items list has been refreshed ['blue buff', 'red crab', 'blue crab', 'dragon', 'mid get 6', 'top get 6', 'red buff', 'bot get 6', 'pioneer']
-<F2>items list has been refreshed ['red crab', 'blue crab', 'dragon', 'mid get 6', 'top get 6', 'red buff', 'blue buff', 'bot get 6', 'pioneer']
-<Del>jungling assistance has terminated
+
+<'F1'>items list has been refreshed ['blue buff', 'red crab', 'blue crab', 'dragon', 'mid get 6', 'top get 6', 'red buff', 'bot get 6', 'pioneer']
+
+<'F2'>items list has been refreshed ['red crab', 'blue crab', 'dragon', 'mid get 6', 'top get 6', 'red buff', 'blue buff', 'bot get 6', 'pioneer']
+
+<'Del'>jungling assistance has terminated
 
 #### P.S. There will only be the artificial error while you record things by pressing keys, all threadings and processed are accurate and will rarely influence your game performance.
