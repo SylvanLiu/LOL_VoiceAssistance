@@ -24,7 +24,13 @@ Press F6 to record that you have killed the pioneer
 
 Press Del to exit this program
 
+You need to press the corresponding key to record that what you just did (what mob has been killed), and it will notify you for the coming of the next one.
+It will send you voice notifications while there is/are one/two minute(s) before some mobs appearing, and also while some mobs have refreshed.
+It will also notify you while there is/are one/two minute(s) before top/mid and bot laners get level-6 (Which means it will be more difficult for you to gank at that lane)
+
 Furthur plan:
 1. Involving speech detecting technology, for simpler telling the assistance your current jungling plan.
 2. Considering the ult skills and summoner spells and send an appropriate notification to the user.
 3. Expand its function to the other three laners.
+
+Console example:
