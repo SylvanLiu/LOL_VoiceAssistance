@@ -71,12 +71,12 @@ def broadcast_queue():
                 right_boundary = current_time + datetime.timedelta(seconds=1)
                 check_point_1 = time_ - datetime.timedelta(minutes=1)
                 if left_boundary.__lt__(check_point_1) and right_boundary.__gt__(check_point_1):
-                    do_broadcast(goal_queue[i], 'only one minute')
+                    do_broadcast(goal_queue[i], ' only one minute')
                 ckeck_point_2 = time_ - datetime.timedelta(minutes=2)
                 if left_boundary.__lt__(ckeck_point_2) and right_boundary.__gt__(ckeck_point_2):
-                    do_broadcast(goal_queue[i], 'still two minutes')
+                    do_broadcast(goal_queue[i], ' still two minutes')
                 if left_boundary.__lt__(time_) and right_boundary.__gt__(time_):
-                    do_broadcast(goal_queue[i], 'has appeared')
+                    do_broadcast(goal_queue[i], ' has appeared')
                 i += 1
             time.sleep(2)
         else:
@@ -84,15 +84,15 @@ def broadcast_queue():
 
 
 def do_broadcast(goal, type_):
-    if type_ == 'has appeared':
+    if type_ == ' has appeared':
         print(goal + type_)
         os.system('say ' + goal + type_)
-    elif type_ == 'still two minutes':
+    elif type_ == ' still two minutes':
         print('There are ' + type_ + ' before ' + goal)
-        os.system('say There are ' + type_ + ' before ' + goal)
-    elif type_ == 'only one minute':
+        os.system('say There are' + type_ + ' before ' + goal)
+    elif type_ == ' only one minute':
         print('There is ' + type_ + ' before ' + goal)
-        os.system('say There is ' + type_ + ' before ' + goal)
+        os.system('say There is' + type_ + ' before ' + goal)
 
 
 def on_release(key):
@@ -140,10 +140,11 @@ def on_release(key):
         update_item('pioneer', rift_herald)
 
     if key == keyboard.Key.delete:
-        # terminate program
+        # 终结程序
         global state_button
         state_button = False
         return False
+
 
 def start_listening():
     with keyboard.Listener(on_release=on_release) as listener:
@@ -156,10 +157,12 @@ if __name__ == '__main__':
     threads.append(t1)
     t2 = threading.Thread(target=broadcast_queue)
     threads.append(t2)
+    print('jungling assistance has launched, may you have a pentakill')
     os.system(
         'say ' + 'jungling assistance has launched, may you have a pentakill')
     for t in threads:
         t.start()
     for t in threads:
         t.join()
+    print('jungling assistance has terminated')
     os.system('say ' + 'jungling assistance has terminated')
